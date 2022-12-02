@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/userInterface.css">
+    <title>LAKO INTERFACE</title>
+</head>
+<body>
+
+    <div class="mainContainer container-fluid">
+
+<!-- this is the header -->
+        <div class="row header d-flex align-content-center">
+            <div class="col text-center text-light d-flex flex-row justify-content-center align-items-center">
+                <!-- <img src="TEST IMAGES/lakomain.png" alt="" class="lakoimg"> -->
+                <p class="lakop">LAKO MENU</p>
+            </div>
+        </div>
+        <div class="row spacer"></div>
+
+ <!-- feature boxes        -->
+        <div class="row text-center featuresList">
+
+            <div class="col-6 col-lg-3 d-flex justify-content-center align-items-center">
+                <a href="pos.html">
+                    <img class="featureIcons" src="TEST IMAGES/pos.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-6 col-lg-3 d-flex justify-content-center align-items-center">               
+                <a href="stocks.html">
+                    <span class="badge" id="showBadge">LOW ON STOCK</span>
+                    <!-- <div id="hideBadge" class="d-none">    
+                        <span class="translate-middle p-2 bg-danger border border-light rounded-circle " id="badgeForStock">
+                            <span id="badgeForStock" class="visually-hidden text-white">LOW ON STOCKS</span>
+                          </span>                   
+                    </div>  -->
+                    <img class="featureIcons" src="TEST IMAGES/stocks.png" alt="" id="appendBadge">
+                </a>
+            </div>
+
+            <div class="col-6 col-lg-3 d-flex justify-content-center align-items-center mt-5 mt-lg-0">
+                <a href="transactions.html">
+                    <img class="featureIcons" src="TEST IMAGES/TRANSCATION ICON.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-6 col-lg-3 d-flex justify-content-center align-items-center mt-5 mt-lg-0">
+                <a href="salesreport.html">
+                    <img class="featureIcons" src="TEST IMAGES/sales.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="js/userInterface.js"></script>
+</body>
+</html>
